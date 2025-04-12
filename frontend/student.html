@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="../backend/rest/registerStudent.php" method="POST">
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="admNo">Admission Number:</label>
+        <input type="text" id="admNo" name="admNo" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        <option value="rather not say">rather not say</option>
+        </select><br><br>
+
+        <label for="emergencyContact">Emergency Contact:</label>
+        <input type="text" id="emergencyContact" name="emergencyContact" required><br><br>
+
+        <label for="house">House:</label>
+        
+        <select id="house" name="house"required>
+            <option value="suswa">suswa</option>
+            <option value="aberdare">aberdare</option>
+            <option value="kenya">kenya</option>
+            <option value="elgon">elgon</option>
+            <option value="suswa">runda</option>
+            <option value="runda">runda</option>
+             </select>
+
+    
+
+        <h2>Select Subjects</h2>
+        <label>
+            <input type="checkbox" name="subjects[]" value="1"> Mathematics
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="2"> English
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="3"> Kiswahili
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="4"> Chemistry
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="5"> Physics
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="6"> Biology
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="7"> History</label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="8"> Geography
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="9"> Business Studies
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="10"> Agriculture
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="11"> Home Science
+        </label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="12"> CRE</label><br>
+        <label>
+            <input type="checkbox" name="subjects[]" value="13"> Art and Design
+        </label><br><br>
+
+        <input type="submit" value="Register Student">
+    </form>
+
+
+</body>
+</html>

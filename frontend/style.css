@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+
+}
+
+body{
+
+    border: 10px solid green;
+    
+}
+
+h1{
+    font-size: 100px;
+    color:rgb(114, 9, 9);
+}
+
+.buttonMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('trackstar2.jpg')center/cover no-repeat;
+    width: 100%;
+    height:100vh;
+    border: 10px solid brown;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
